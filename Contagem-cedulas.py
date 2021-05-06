@@ -10,5 +10,5 @@ def din(a):
     for i in range(len(notas)):
         print("Notas de %d:%d" % (notas[i], numNotas[i]))
     return a
-val = int(input("Digite o valor:"))
+val = int(input("Digite o valor: "))
 print(din(val))
